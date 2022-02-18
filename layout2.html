@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web Layout2</title>
+    <style>
+       
+        .header{
+            border: 2px solid red;
+           margin-bottom: 10px;
+           text-align: center;
+        }
+        .nav{
+            border: 2px solid red;
+           text-align: center;
+           margin-bottom: 10px;
+        }
+        .content{
+            display: flex;
+        }
+        .left{
+            display: flex;
+            border: 2px solid red;  
+            width: 15%;
+            height: 605px; 
+            float: left; 
+            justify-content: center;
+            align-items: center;
+        }
+        .middle{
+            display: flex;
+            border: 2px solid red;  
+            width: 68.5%;
+            height: 605px;  
+            float: left; 
+            margin-left: 5px;
+            justify-content: center;
+            align-items: center;
+        }
+        .right{
+            display: flex;
+            border: 2px solid red;  
+            width: 15%;
+            height: 605px;
+            float: left; 
+            margin-left: 5px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .footer{
+            border: 2px solid red;  
+            display: flex;
+
+        }
+    </style>
+</head>
+<body >
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="nav">
+        <h1>Navigation Menu</h1>
+    </div>
+    <div>
+        <div class="left">
+            <h1>Content</h1>
+            
+        </div>
+        <div class="middle">
+            <h1>Main Content</h1>
+            
+        </div>
+        <div class="right">
+            <h1>Content</h1>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Footer</h1>
+    </div>
+</body>
+</html>

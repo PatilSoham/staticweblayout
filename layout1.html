@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web layout1</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            /* background-color: black; */
+        }
+        body{
+            padding: 2%;
+        }
+        div{
+        }
+        .container{
+            border: 2px solid red;
+           margin-bottom: 20px;
+            display: inline-block;
+            width: 100%;
+        }
+        .logo{
+            width: 30%;
+            text-align: center;
+            padding: 15px;
+            border-right: 2px solid red;
+            margin: 0%;
+            float: left;
+
+        }
+        .banner{
+            width: 70%;
+            float: left;
+            text-align: center;
+            padding: 15px;
+            margin: 0%;
+            
+        }
+        .bar{
+            overflow: auto;
+            border-top: 2px solid red;
+            margin: 0%;
+            clear: both;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .left{
+            height: 604px;
+            border: 2px solid red;
+            width: 30%;
+            float: left;
+            padding: 10%;
+            overflow: auto;
+            margin-bottom: 20px;
+        }
+        .middle{
+            box-sizing: border-box;
+            width: 40%;
+            float: left;
+            border: 2px solid red;
+            border-left: none;
+            text-align: center;
+            overflow: auto;
+    
+            
+        }
+        .CCB{
+            box-sizing: border-box;
+
+            height: 200px;
+            text-align: center;
+            padding-top: 10%;
+        }
+        .CLB{
+            box-sizing: border-box;
+
+            border-top: 2px solid red;
+            border-bottom: 2px solid red;
+            float: left;
+            height: 200px;
+            width: 50%;
+            text-align: center;
+            padding-top: 10%;
+
+        }
+        .CRB{
+            box-sizing: border-box;
+
+            border: 2px solid red;
+            border-right: none;
+            float: left; 
+            height: 200px;
+            width: 50%;
+            text-align: center;
+            padding-top: 10%;
+        }
+        .MAC{
+            box-sizing: border-box;
+
+            clear: both;
+            height: 200px;
+            text-align: center;
+            padding-top: 10%;
+        }
+        .right{
+            float: left;
+            height: 604px;
+            border: 2px solid red;
+            border-left: none;
+            width: 30%;
+            text-align: center;
+            padding-top: 10%;
+            overflow: auto;
+        }
+        .end{
+            clear: both;
+            margin-top: 50px;
+            overflow: auto;
+            border: 2px solid red;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>Head Logo</h1>
+        </div>
+        <div class="banner">
+            <h1>Head Banner</h1>
+        </div>
+        
+        <div class="bar">
+            <h1>header bar</h1>
+        </div>
+    </div>
+    <div class="left">
+        <h1>left block</h1>
+    </div>
+    <div class="middle">
+        <div class="CCB">
+            <h1> center-center block</h1>
+        </div>
+        <div class="CLB">
+            <h1>center-left block</h1>
+        </div>
+        <div class="CRB">
+            <h1>center Right block</h1>
+        </div>
+        <div class="MAC">
+            <h1>module contents</h1>
+        </div>
+    </div>
+    <div class="right">
+        <h1>right block</h1>
+    </div>
+
+    <div class="end">
+        <h1>Footer Bar</h1>
+    </div>
+</body>
+</html>
